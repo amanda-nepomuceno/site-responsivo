@@ -5,6 +5,7 @@
     align-items: center;
     }
     
+
     .cabecalho-menu-hamburguer{
         width: 24px;
         height: 24px;
@@ -13,21 +14,34 @@
         display: inline-block;
     }
      
-
     .container {
     display: flex;
     align-items: center;
     }
     
+    .container{
+        display: flex;
+        align-items: center;
+
+    }
     .cabecalho-titulo {
     display: none;
     }
      
+
     .container-menu{
         display: none;
         position: absolute;
         top: 100;
     }
+
+
+
+    .container-botao:checked~.container-menu{
+        display: block;
+    }
+    
+
 
     @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
