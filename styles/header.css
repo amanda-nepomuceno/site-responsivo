@@ -42,6 +42,10 @@
         background-color: var(--branco);
     }
 
+    .menu-link{
+        text-transform: uppercase;
+        text-decoration: none;
+    }
 
     @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
