@@ -19,11 +19,6 @@
     align-items: center;
     }
     
-    .container{
-        display: flex;
-        align-items: center;
-
-    }
     .cabecalho-titulo {
     display: none;
     }
@@ -43,7 +38,7 @@
     }
     
     .menu-item, .menu-item-titulo {
-        padding: lem;
+        padding: 1em;
         background-color: var(--branco);
     }
 
