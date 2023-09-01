@@ -24,6 +24,9 @@
     display: none;
     }
      
+.container-imagem{
+    padding: 1em;
+}
 
     .container-menu{
         display: none;
