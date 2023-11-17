@@ -35,3 +35,10 @@ carrossel-titulo {
     display: flex;
     justify-content: space-evenly;
    }
+
+   .card{
+    border-radius: 10px;
+    background: var(--branco);
+    margin: 1em;
+    padding: 1em;
+   }
